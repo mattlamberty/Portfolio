@@ -1,0 +1,68 @@
+/* file: styles.css */
+body {
+  display: block;
+  background-color: beige;
+  color: blue;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5rem auto;
+  font-size: 20;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  font-weight: 200;
+}
+
+#survey-form {
+  text-align: left;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+label {
+  display: inline-block;
+  width: 600px;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="file"] {
+  width: auto;
+  border: none;
+  background-color: beige;
+}
+
+input, textarea {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.inline {
+  width: unset;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.checkboxes {
+  text-align: justify;
+
+}
